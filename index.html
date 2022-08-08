@@ -115,7 +115,7 @@ class=header>
 <p><strong>Greetings from Victoria&mdash;Songhees, Esquimalt, and W̱SÁNEĆ Peoples' territories.</strong></p>
 
 <h1>The latest news</h1>
-<p>My name is Kim Shortreed (he/him). I am currently a <a href="https://www.uvic.ca/humanities/english/graduate/studentprofiles/shortreed-kim.php">PhD Candidate in Media Studies and Digital Humanities</a> at the University of Victoria. I am also a freelance copyeditor for <a href="https://www.ubcic.bc.ca/">UBCIC</a> (Union of British Columbia Indian Chiefs).</p> 
+<p>My name is Kim Shortreed (he/him). I am currently a <a href="https://www.uvic.ca/humanities/english/graduate/studentprofiles/shortreed-kim.php">PhD Candidate in Media Studies and Digital Humanities</a> at the University of Victoria. I am also a freelance copyeditor for <a href="https://www.ubcic.bc.ca/">UBCIC</a> (Union of British Columbia Indian Chiefs). <button onclick="myFunction()" id="myBtn">Read more</button>
 
 <p>For my dissertation work, I am trying to learn more about the historical, sociopolitical, narrative, and meaning-making aspects of Indigenous and settler place names (toponyms) and how they coexist in the Salish Sea. In particular, I am interested in settler approaches and reactions to Indigenous namescapes and recent efforts to “decolonize” settler namescapes. My goal with this work is to find new ways for settler institutions and allies to make space for Indigenous toponyms, perspectives, histories, and truths.</p>
 
@@ -264,5 +264,19 @@ Spring Ridge Co-op Housing Association<br>
 <h4><a href="https://www.youtube.com/channel/UCSPJMDWOd2aF2bpRmRhjaVA">Ken Shortbread</a></h2>
 <p>I may or may not be involved in the production of this podcast. For confidentiality reasons that I’ve just invented, I cannot say more. This podcast is not for kids or people who take themselves too seriously.</p>-->
 </div>
+<script>
+function myFunction() {
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    btnText.innerHTML = "Read more"; 
+    moreText.style.display = "none";
+  } else {
+    btnText.innerHTML = "Read less"; 
+    moreText.style.display = "inline";
+  }
+}
+</script>
 </body>
 </html>
