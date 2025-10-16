@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<html>
+<div class=wrap>
+<head>
+
+<!-- GOOGLE FONTS -->
+<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Darumadrop+One&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap" rel="stylesheet">
+
+<!-- CSS STARTS -->
+<style>
+html {
+  scroll-behavior: smooth;
+}
+/* LINKS */
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:active {
+  text-decoration: none;
+}
+html {
+  background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Salish_Sea_432_pan_crop_15_%2830464435484%29.jpg/1520px-Salish_Sea_432_pan_crop_15_%2830464435484%29.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.logo {
+position:relative;
+float: right;
+overflow: auto;
+margin-left:-30%;
+z-index:-1;
+}
+.wrap {
+margin-left: 5%;width: 60%;height: auto;
+}
+.header {
+width: 100%;position: relative;
+}
+.title {
+font-family: 'Darumadrop One', cursive;
+font-size:6em;
+color: #FF10F0;
+text-align: center;
+text-shadow: 1px 1px 4px #000000;
+}
+.subtitle {
+font-family: 'Caveat Brush', cursive;
+font-size: 2em;
+color: #FFFFFF;
+text-align: center;
+padding-bottom: 3%;
+text-transform:uppercase;
+text-shadow: 1px 1px 20px #000000;
+}
+
+h1 {
+  font-family: 'Arial', serif;
+  font-size: 1.8em;
+  padding-bottom: 2%;
+}
+  
+h2 {
+font-family: 'Caveat Brush', cursive;
+font-size: 1.5em;
+color: #36454F;
+text-align: left;
+padding-top: 1%;
+padding-bottom: 2%;
+text-transform:uppercase;
+}
+
+.nav {
+margin: auto;
+width: 40%;
+font-family: 'Work Sans', sans-serif;
+font-size: 1.1em;
+color: #8EB4FE;
+text-align: center;
+background: rgba(252, 253, 255);
+-moz-border-radius: 5px;
+border-radius: 5px;
+box-shadow: 0px 3px 5px #2E0F00;
+-moz-box-shadow: 0px 3px 5px #2E0F00;
+-webkit-box-shadow: 0px 3px 5px #2E0F00;
+padding:1%;
+margin-bottom:10%;
+margin-top:5%;
+}
+.info {
+position: relative;
+margin-left: 6%;
+width: 85%;
+font-family: 'Arial', serif;
+font-size: 1em;
+color: #303030;
+padding: 3%;
+line-height:140%;
+background: rgba(252, 253, 255);
+-moz-border-radius: 5px;
+border-radius: 5px;
+box-shadow: 0px 3px 5px #2E0F00;
+-moz-box-shadow: 0px 3px 5px #2E0F00;
+-webkit-box-shadow: 0px 3px 5px #2E0F00;
+}
+hr {
+height: 1px;
+background-color: #FF10F0;
+border: none;
+  }
+  
+img {
+max-width:50%;
+height: auto;
+  }
+</style>
+<!-- CSS ENDS =================================================-->
+<title>Shortreed's Short Read Writing PhD Tips</title>
+</head>
+
+<body>
+<div
+class=header>
+<div class=title>Nedisodes<!--<div class=logo><img src="images/logo.png"></div>--></div>
+<div class=subtitle>Micro-stories about Ned, my overlord</div>
+</div>
+
+<!--<div class=nav>| <a href="#cv">CV</a> | <a href="#contact">Contact</a> | </div>-->
+
+<!-- PAGE CONTENT BEGINS =================================================-->
+<div class=info>
+
+<h1>Shortreed's Short Read Writing PhD Tips</h1>
+<p><strong>Ned is an amazing human on so many levels</strong> that it's difficult to know where to begin.</p> 
+  
+<p>To my continued shame, I ruined his life by snapping his Achilles tendon, and he (this is how Ned self-identities) has made me suffer ever since, which I obviously deserve. <img src="/nedimages/Achilles.png"/></p>
+  
+<p>Sit back, relax, and enjoy his gradual revenge and unrelenting cheapness. If you scroll down long enough you'll get the latest chapter in our strange relationship: we go magnateering. Yes, it's a thing.</p>
+
+<details><summary><strong>Click here to read all the Ned episodes, or Nedisodes...</strong></summary>
+<p></p>
+
+<!-- EPISODE 1 =================================================-->
+<hr>
+<h2>E1: NED NEEDS A STANDUP DESK AND IT'S ALL MY FAULT</h2>
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/Heads_of_badminton_raquets.jpg" alt="badminton rackets"></p>
+<p><strong>Dateline: a university campus, somewhere in British Columbia.</strong></p>
+<p>I talk Ned into playing badminton. On the walk over to play, he jokingly says that he hopes he doesn’t blow his Achilles tendon again. Ten minutes into playing, he blows his Achilles tendon, but on the good leg—he’d blown the other one years before, playing backyard volley ball.</p>
+<p>It was awful on a variety of levels. I have felt guilty every since. Ned knows this, and he's relishing in his moral triumph over my guilty conscience. He’s also turned this into a chance to show that he is one of the accidentally funniest, wry, and cutting comics working our office circuit.</p>
+<p>These are his well-justified jabs, recorded for posterity, and my chance to make amends by raising money for Ned to get a stand-up desk unit, so that he can strengthen the tendon I destroyed so callously.</p>
+<hr>
+  
+<!-- EPISODE 2 =================================================-->
+<h2>E2: I STOP BY NED'S OFFICE</h2> 
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/d/dd/Vegan_muffin_%288195939438%29.jpg?20140928034448" alt="muffin"></p>
+<p><strong>I stop by Ned's office</strong> and ask him if he wants me to pick him up a snack from the cafe. Maybe a muffin or some chocolate? I say.</p> 
+<p>He waits a beat, then says plainly, "See if they sell new legs." He then goes back to typing loudly on his keyboard.</p>
+<hr>
+  
+</details> 
+<p></p>
+<p><a href="https://www.instagram.com/kimshortreed"><img src="nedimages/instalogo.png" alt="instagram logo" style="padding-top: 2%; display: block; margin-left: auto; margin-right: auto;"></a></p>
+<p style="font-size: .7em; text-align:center;">KS Shortreed, 2023.</p>
+</div>
+</body>
+</html>
+
