@@ -124,16 +124,20 @@ height: auto;
   <li>Questions and discussion: 10 min</li>
 </ul>
 
-<h2>What is a GPS actvated audio guide?</h2>
+<h2>What is a GPS activated audio guide?</h2>
 
 <p>An audio guide is something you listen to in order to learn more about where you are, or what you are looking at.</p> 
 <p>Audio guides have been in common use in museums, art galleries, and walking tours for many years. In the before times, audio guides were on <a href="https://en.wikipedia.org/wiki/Cassette_tape">cassette tapes</a>. But, modern, downloadable versions are in common use in places like The Metropolitan Museum of Modern Art (The Met), which has <a href="https://www.metmuseum.org/audio-guide">an extensive library of audi guides</a>.</p>
 
 <p><strong>A GPS activated audio guide</strong> is an audio guide paired with <a href="https://en.wikipedia.org/wiki/Global_Positioning_System">GPS technology</a>.</p> 
 
-<p>Using a <strong>digital map that integrates GPS coordinates</strong>, we can create an audio guide that activates when listeners are at a specific location anywhere on Earth, provided that spot has wifi or cellular data access.</p>
+<p>Using a digital map that integrates GPS coordinates, we can create an audio guide that activates when listeners are at a specific location anywhere on Earth, provided that spot has wifi or cellular data access.</p>
 
-<p><strong>This workshop uses <a href="https://izi.travel/en/about-us">izi.TRAVEL</a></strong>, "an open and free story-telling platform," to create a GPS activated audio guide.</p>
+<h2>What is izi.TRAVEL and why use it?</h2>
+
+<p><strong>This workshop uses <a href="https://izi.travel/en/about-us">izi.TRAVEL</a></strong>, "an open and free story-telling platform." The izi.TRAVEL platform interface is free and relatively simple to use, compared to similar platforms, and it has a relatively rich feature set. You </p> 
+
+<p>izi.TRAVEL includes additional audio guide features, like images, videos, text content, and more, which you can explore, later. For now, <strong>we will create a barebones GPS activated audio guide, using one fundamental izi.TRAVEL feature: activating an audio file to play once you arrive at a specific geolocation.</strong></p>
 
 <h2>Why make a custom audio guide to share your work?</h2>
 
@@ -151,9 +155,22 @@ height: auto;
 <p>
 <ul>
   <li>Internet access</li>
-  <li>an email provider and account, for example iCloud Mail, Gmail, or Proton Mail</li>
-  <li>a modern web browser, such as Firefox, Google Chrome, or Safari</li>
-  <li>an <a href="https://en.wikipedia.org/wiki/IOS">iOS</a> or <a href="https://en.wikipedia.org/wiki/Android_(operating_system)">Android</a> based smart phone</li>https://en.wikipedia.org/wiki/IOS
+  <li>A laptop or desktop computer</li>
+  <li>An <a href="https://en.wikipedia.org/wiki/IOS">iOS</a> or <a href="https://en.wikipedia.org/wiki/Android_(operating_system)">Android</a> based smart phone</li>
+  <li>An email provider and account, for example iCloud Mail, Gmail, or Proton Mail</li>
+  <li>A modern web browser, such as Firefox, Google Chrome, or Safari</li>
+</ul>
+</p>
+
+<h2>What skills are needed for this workshop?</h2>
+
+<p>
+<ul>
+  <li>Creating and logging in to accounts for web-based and smartphone applications</li>
+  <li>Downloading a file from a browser window to your computer or phone</li>
+  <li>Uploading a file stored on your computer or phone to a web interface</li>
+  <li>Ability to use basic digital map features, such as dragging and zooming in</li>
+  <li>Able to use your phone camera to scan <a href="https://en.wikipedia.org/wiki/QR_code">QR codes</a> (or long press on the QR if using a phone)</li>
 </ul>
 </p>
 
@@ -162,11 +179,12 @@ height: auto;
 <p>By the end of this workshop, you will learn how to...
 
 <ul>
-  <li>create an izi.TRAVEL account</li> 
-  <li>choose and edit a basic izi.TRAVEL outdoor tour template</li> 
-  <li>upload an audio file (provided for you) to izi.TRAVEL's content management system</li>
-  <li>use izi.TRAVEL's map/GPS interface to place an audio event marker on a digital map</li>
-  <li>test and edit your audio tour's functionality</li>
+  <li>Create an izi.TRAVEL account</li> 
+  <li>Navigate izi.TRAVEL's CMS</li>
+  <li>Choose and edit a basic izi.TRAVEL outdoor tour template</li> 
+  <li>Upload an audio file (provided for you) to izi.TRAVEL's CMS</li>
+  <li>Use izi.TRAVEL's map/GPS interface to place an audio event marker on a digital map</li>
+  <li>Test and edit your audio tour's functionality</li>
 </ul>  
 </p>
 
@@ -176,25 +194,32 @@ height: auto;
 <p>We need to do a little preparation to create our first izi.TRAVEL GPS actvated audio guide:</p> 
 
 <ol>
-  <li>Navigate to <a href="https://izi.travel/en">https://izi.travel/en</a> and create an account</li> 
+  <li>On your desktop or laptop computer, navigate to <a href="https://izi.travel/en">https://izi.travel/en</a> and create an account</li> 
   <li>Install the izi.TRAVEL app on your <a href="https://apps.apple.com/us/app/izi-travel-audio-tour-guide/id554726752">iOS</a> or <a href="https://play.google.com/store/apps/details?id=travel.opas.client&hl=en&pli=1">Android</a> device</li> 
 </ol> 
 
 <hr>
 <h2>Hands-on activities</h2>
 
-<p>This section of the workshop walks you through the steps to create a basic GPS activated audio guide using the izi.TRAVEL platform.</p>
+<p>This <strong>self-paced section of the workshop</strong> walks you through the steps to create a basic GPS activated audio guide using the izi.TRAVEL platform.</p>
 
 <p><strong>Please work through the steps in the order and read each step carefully</strong>. If you are completing this workshop in person, then please let your facilitator know if you need a hand.</p> 
 
 <p>Now, let's get started &#128568;...</p>  
 
-<h3>Step 1: open a browser and login to izi.TRAVEL, as a creator</h3>
+<h3>Step 1: open a browser and login to izi.TRAVEL</h3>
+<p><strong><mark>IMPORTANT</mark></strong>: if you are using a browser on a phone, you will see a popup warning about using "the desktop version of the izi.TRAVEL <a href="https://en.wikipedia.org/wiki/Content_management_system">CMS</a>." Click the "Got it" button to continue.
+
+<figure>
+  <img src="images/gpsaudio-images/gpsaudio-img00.png" alt="izi.TRAVEL website login warning">
+  <figcaption>Image 0. For phone users only: izi.TRAVEL's website warning. Click "Got it" to continue</figcaption>
+</figure>
+
 <p>Here is the link to the "Creator" section of the izi.TRAVEL website: <a href="https://cms.izi.travel/users/sign_in?content_provider_id=93835">https://cms.izi.travel/users/sign_in?content_provider_id=93835</a></p>
 
 <figure>
-  <img src="images/gpsaudio-images/gpsaudio-img01.png" alt="izi.TRAVEL login page">
-  <figcaption>Image 1. izi.TRAVEL login page.</figcaption>
+  <img src="images/gpsaudio-images/gpsaudio-img01.png" alt="izi.TRAVEL website login page">
+  <figcaption>Image 1. izi.TRAVEL website login page.</figcaption>
 </figure>
 
 <h3>Step 2: In the izi.TRAVEL Dashboard page, click on the Create button</h3>
@@ -210,14 +235,16 @@ height: auto;
   <figcaption>Image 3. Selecting "Tour" from the available options.</figcaption>
 </figure>
 
-<h3>Step 4: Name your Tour "UVic Fountain Tour" and click the  "Create" button</h3>
+<h3>Step 4: Name your Tour "UVic Fountain Tour" and click the "Create" button</h3>
 <figure>
   <img src="images/gpsaudio-images/gpsaudio-img05.png" alt="Naming and creating your tour">
   <figcaption>Image 4. Naming your Tour and clicking on the Create button.</figcaption>
 </figure>
 
 <h3>Step 5: Upload your audio recording</h3>
-<p><strong><mark>IMPORTANT</mark></strong>: first, download this audio file (right click and save link as...) to your computer: <a href="https://kimshortreed.github.io/UViFountainTourTest.m4a">https://kimshortreed.github.io/UViFountainTourTest.m4a</a></p>
+<p><strong><mark>IMPORTANT</mark></strong>: first, download this audio file to your computer or phone: <a href="https://kimshortreed.github.io/UViFountainTourTest.m4a">https://kimshortreed.github.io/UViFountainTourTest.m4a</a></p>
+
+<p><strong>TIPS:</strong> to download the audio file (from the above link) on a desktop or laptop, right click and choose "Save link as." On an iPhone, long press and select "Download Link." If you are saving to your phone, be sure to save it to your phone storage and not a cloud storage service, like iCould.</p>
 
 <p>Next, click on the <strong>Choose file</strong> button to upload the audio file you just saved to your computer.</p>
 
@@ -234,10 +261,8 @@ height: auto;
 
 <p><strong><mark>IMPORTANT</mark></strong>: remember to click on the <strong>Save</strong> button.</p>
 
-<h3>Step 6: Add a GPS location to your Tour</h3>
-<p>This is the way we connect your audio file to a specific location.</p>
-
-<p>Next, click on the Tour link to be taken to a map interface.</p>
+<h3>Step 6: Click on the Tour link</h3>
+<p>Clicking on the Tour link takes you to the map interface.</p>
 
 <figure>
   <img src="images/gpsaudio-images/gpsaudio-img08.png" alt="Clicking on the Tour link">
@@ -252,7 +277,9 @@ height: auto;
   <figcaption>Image 8. Using the map interface to find the UVic fountain, in Satellite view.</figcaption>
 </figure>
 
-<h3>Step 8: Add a Tourist Attraction pin to the map</h3>
+<p>Nearly there! Now that we are happy with our general location, it is time to choose the spot where we want our Tour audio to play.</p>
+
+<h3>Step 8: Add and name a Tourist Attraction pin to the map</h3>
 <p>First, click on the Tourist Attraction pin icon. Note that your cursor will change to a plus sign.</p>
 
 <figure>
@@ -260,11 +287,36 @@ height: auto;
   <figcaption>Image 9. Clicking on the Tourist Attraction pin icon.</figcaption>
 </figure>
 
-<p>Next, click on the map in the place you want your Tourist Attraction pin to be. Note that you will be able to drag the pin around at this point in the process.</p>
+<p>Next, click on the map in the place you want your Tourist Attraction pin to be—clicking on the map will result in a <strong>popup window in which you name your Attraction</strong>.</p>
+
+<p>Finally, <strong>name your Attraction as follows: UVic Fountain</strong></p>
+
+<p><strong><mark>IMPORTANT</mark></strong>: remember to click on the <strong>Save</strong> button.</p>
+
+<figure>
+  <img src="images/gpsaudio-images/gpsaudio-img11.png" alt="Naming the Tourist Attraction pin icon">
+  <figcaption>Image 10. Naming and saving the Tourist Attraction pin icon.</figcaption>
+</figure>
+
+<p><strong><mark>IMPORTANT</mark></strong>: you know that you have saved your modifications to your attraction when the GPS boundary area and the icon in the map, and beside the Attraction name, become blue in colour.</p>
+
+<figure>
+  <img src="images/gpsaudio-images/gpsaudio-img12.png" alt="Confirming that your Tourist Attraction has been saved">
+  <figcaption>Image 11. Confirming that your Tourist Attraction has been saved.</figcaption>
+</figure>
+
+<h3>Step 9: Return to the Properties area of your Tour and navigate to the QR-Code tab</h3>
+
+<p>First, in the map interface, click on the gear icon to return to the Properties area. We are already familiar with the Properties area's "Profile" tab, because this is where we named our Tour in Step 4.</p>
+
+<figure>
+  <img src="images/gpsaudio-images/gpsaudio-img13.png" alt="Returning to the Properties area">
+  <figcaption>Image 12. Clicking on the gear icon to return to the Properties area for your Tourist Attraction.</figcaption>
+</figure>
+
+<p>Next, click on the QR-Code tab.</p>
 
 
-<h3>Step 9: ###</h3>
-<p></p>
 
 <h3>Step 10: ###</h3>
 <p></p>
